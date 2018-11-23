@@ -1,12 +1,47 @@
-body{
+body {
+    background: #F0F0F0;
     font-family: 'Cabin', sans-serif;
 }
 
-header{
+header {
     background: lightgrey;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
 }
+
+.profile-content .social a {
+    background: darkslategray;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: white;
+    text-align: center;
+  }
+
+.profile-content .social a:hover {
+    background: darkgray;
+  }
+
+  .sections-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .section {
+      background: white;
+  }
+
+  .section-inner {
+      padding: 25px;
+  }
