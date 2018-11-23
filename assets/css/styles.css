@@ -3,13 +3,14 @@ body {
     font-family: 'Cabin', sans-serif;
 }
 
-header {
-    background: lightgrey;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
+}
+
+/* HEADER */
+header {
+    background: lightgrey;
 }
 
 .profile-content .social a {
@@ -27,21 +28,27 @@ h1, h2, h3, h4, h5, h6 {
     background-clip: padding-box;
     color: white;
     text-align: center;
-  }
+}
 
 .profile-content .social a:hover {
     background: darkgray;
-  }
+}
 
-  .sections-wrapper {
+/* SECTIONS */
+.section-inner .heading {
+    margin-bottom: 30px;
+}
+
+.sections-wrapper {
     padding-top: 50px;
     padding-bottom: 50px;
-  }
+}
 
-  .section {
-      background: white;
-  }
+.section  {
+    background: white;
+    margin-bottom: 30px;
+}
 
-  .section-inner {
-      padding: 25px;
-  }
+.section-inner {
+    padding: 25px;
+}
