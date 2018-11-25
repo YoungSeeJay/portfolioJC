@@ -61,3 +61,8 @@ header {
 .section-inner {
     padding: 20px;
 }
+
+.hobbies i, .info i, .music i {
+    width: 16px;
+    margin-right: 6px;
+}
