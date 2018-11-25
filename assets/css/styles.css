@@ -22,7 +22,7 @@ header {
     background: linear-gradient(to left, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.profile-content .social a {
+div .list-inline a {
     background: darkslategray;
     width: 22px;
     height: 22px;
@@ -39,7 +39,7 @@ header {
     text-align: center;
 }
 
-.profile-content .social a:hover {
+div .list-inline a:hover {
     background: darkgray;
 }
 
@@ -65,4 +65,8 @@ header {
 .hobbies i, .info i, .music i {
     width: 16px;
     margin-right: 6px;
+}
+
+nav div h1, nav div h5 {
+    width: 150px;
 }
