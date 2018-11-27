@@ -67,6 +67,26 @@ div .list-inline a:hover {
     margin-right: 6px;
 }
 
-nav div h1, nav div h5 {
+/* nav div h1, nav div h5 {
     width: 150px;
-}
+} */
+
+@media (max-width: 576px) {
+    .profile-image {
+        width: 167.25px;
+        height: 180.75px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+  }
+  
+/* 
+  .desc {
+    white-space: nowrap;
+  } */
